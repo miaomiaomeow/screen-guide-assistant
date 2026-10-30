@@ -1,0 +1,20 @@
+{
+  "name": "screen-guide-local",
+  "interface": {
+    "displayName": "本地屏幕指路 Demo"
+  },
+  "plugins": [
+    {
+      "name": "screen-guide",
+      "source": {
+        "source": "local",
+        "path": "./codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

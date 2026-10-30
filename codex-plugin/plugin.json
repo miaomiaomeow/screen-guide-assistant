@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "screen-guide",
+  "version": "0.3.1",
+  "description": "Ask the local Windows screen guide to highlight real software controls while you click them yourself.",
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "Screen Guide",
+        "shortDescription": "Find controls in real Windows apps. You perform every action.",
+        "longDescription": "The current conversation model reads the live interface and chooses each entry. The local app verifies bounds, draws click-through highlights and observes your own clicks. Hybrid mode shares current control metadata and a target-window image. No automatic clicks, typing or microphone activation.",
+        "category": "Productivity"
+      }
+    }
+  }
+}

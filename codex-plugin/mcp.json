@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "screen-guide": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": ["${PLUGIN_ROOT}/server/publish/ScreenGuide.Plugin.dll"],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+[
+  "--mcp-config",
+  "--strict-mcp-config",
+  "--no-strict-mcp-config",
+  "--append-system-prompt",
+  "--append-system-prompt-file",
+  "--system-prompt",
+  "--system-prompt-file",
+  "--plugin-dir",
+  "--plugin-url"
+]
